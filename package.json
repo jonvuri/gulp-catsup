@@ -1,0 +1,28 @@
+{
+  "name": "gulp-catsup",
+  "version": "0.1.0",
+  "description": "Gulp plugin to fix CSP errors by extracting inline scripts from HTML",
+  "keywords": [
+    "gulp",
+    "csp",
+    "content",
+    "security",
+    "policy",
+    "fixer",
+    "inline",
+    "script",
+    "scripts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrajav/gulp-catsup.git"
+  },
+  "main": "index.js",
+  "author": "Jonathan Rajavuori <jrajav@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-util": "^3.0.4",
+    "through2": "^0.6.5",
+    "catsup": "^0.1.0"
+  }
+}
